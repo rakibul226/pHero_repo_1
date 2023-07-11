@@ -1,0 +1,214 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    display: flex;
+    gap: 97px;
+    height: 100vh;
+    margin-bottom: 178px;
+    align-items: center;
+    padding-left: 240px;
+    background-color:#FCEEF1;
+}
+.header-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    width: 93%;
+}
+
+.header-desc{
+    margin: 32px 0px;
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.header-img{
+    padding-top: 76px;
+    height: 90%;
+}
+
+.btn-primary{
+    padding: 20px 43px;
+    background-color: #DD516E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* -----------------------Feature section--------------------- */
+
+.feature{
+    margin: 190px 240px;
+
+}
+.feature-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.feature-img{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.f-img-size{
+    width: 80%;
+}
+
+.f-img-1{
+    padding-top: 105px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:#F2DEE7;
+    border-radius: 300px 300px 0px 0px;
+}
+.f-img-2{
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 58px;
+    background-color: #D9EFF1;
+    border-radius: 300px 300px 0px 0px;
+}
+.f-img-3{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #E3EBDB;
+    border-radius: 300px 300px 0px 0px;
+}
+.text-underline{
+    color: #272727;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+
+
+/* ---------------------------support section--- */
+
+.support{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 128px 240px;
+    padding: 86px 175px;
+    background-color: #F4F4F4;
+    gap: 100px;
+}
+
+/* ------------------hot deal-------------------- */
+
+.hot-deal{
+    display: flex;
+    gap: 186px;
+    background-color: #FEF6F8;
+    align-items: center;
+    text-align: center;
+    padding: 100px 300px;
+    margin-bottom: 140px;
+}
+.deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+.deal-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* ----------------------Social media section---- */
+
+.social{
+     padding: 0px 240px;
+    text-align: center;
+}
+.social-img-container{
+    display: flex;
+    gap: 20px;
+}
+.social-img{
+    width: 95%;
+}
+
+
+/* ---------Subscrilbe-------------- */
+.subscribe{
+    text-align: center;
+    background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin: 128px 240px;
+    padding: 125px 0px;
+    
+}
+.subscribe-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscribe-mail{
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+
+/* 
+------------footer-------- */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 120px 128px;
+}
+
+.footer-desc{
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copy-right{
+    color: rgba(255, 255, 255, 0.4);
+text-align: center;
+font-size: 16px;
+font-weight: 200;
+}
+.logo{
+    color: #E55473;
+}
